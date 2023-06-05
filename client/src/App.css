@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  margin: 10px;
+}
+h1{
+  text-align: left;
+}
+.error-message {
+  color: #c62828;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.error-message {
+  /* display: flex;
+  align-items: center; */
+}
+
+.error-icon {
+  margin-right: 5px;
+}
+
+.error-text {
+  font-weight: bold;
+}
+
+.header, Link{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: right;
+  margin: 10px 20px;
+}
+h3,h2{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  justify-content: space-between;
+  text-align: left;
+}
+
+table{
+text-align: left;
+border: black;
+border-top: 2px solid black !important;
+border-bottom: 2px solid black !important ;
+
+}
+
+td ,th{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: right;
+  margin: 10px 20px;
+}
+
+.list , .list td {
+  width: 450px;
+  font: 1.6rem cursive;
+  border: none !important;
+  /* border-left: none !important; */
+
+}
