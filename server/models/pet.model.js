@@ -27,7 +27,8 @@ const PetSchema = new mongoose.Schema({
     thirdSkill: {
         type: String
     },
-    likes:{type: Number}
+    likes:{type: Number,
+           default:0}
 },
     { timestamps: true });
 
